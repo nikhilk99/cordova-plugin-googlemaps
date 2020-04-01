@@ -40,7 +40,7 @@ android {
   def isKeyFound = 0
   def useBetaSdk = 0
   props.setProperty("GOOGLE_MAPS_PLAY_SERVICES_VERSION", "16.0.0");
-  props.setProperty("ANDROID_SUPPORT_V4_VERSION", "27.1.1");
+  props.setProperty("ANDROID_SUPPORT_V4_VERSION", "27.1.0");
   props.setProperty("GOOGLE_MAPS_ANDROID_SDK", "");
 
   widget.preference.each { pref ->
